@@ -1,0 +1,48 @@
+<hr>
+
+<div class="container">
+
+  <!-- FOOTER -->
+  <footer>
+  <p>Developed by Natalie Averkamp</p>
+  <p><a href="#" data-toggle="modal" data-target="#modal-credits">Credits &amp; Disclaimer</a></p>
+  </footer>
+
+</div>
+
+<!-- Modal - Credits -->
+<div class="modal fade" id="modal-credits" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h4 class="modal-title" id="myModalLabel">Credits</h4>
+  </div>
+  <div class="modal-body">
+    <p>This website was built using RShiny.</p>
+
+    <p>The following data sets were used:</p>
+    <ul>
+      <li>New York Times Covid-19 county-level data</li>
+      <li>US Census Bureau Adjacency file</li>
+      <li>US Census Bureau county-level population data</li>
+      <li>simplemaps.com data connecting counties to cities</li>
+    </ul>
+
+      <p>This website was created as part of a project for BST 260 at Harvard University in the School of Public Health for the MS Biostatistics program. Kirstie Turnbull and Anja Shahu were group members who contributed with their feedback and debugging help.</p>
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+  </div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script src="plugins/fittext_1.2/jquery.fittext.js"></script>
+<script src="plugins/fittext.js"></script>
+
+<script type="text/javascript">
+  jQuery(".fit-h1").fitText(1.2, { minFontSize: '32px', maxFontSize: '38px' });
+  jQuery(".fit-h2").fitText(1.2, { minFontSize: '18px', maxFontSize: '26px' });
+  jQuery(".fit-text").fitText(0.8, { minFontSize: '18px', maxFontSize: '24px' });
+</script>
