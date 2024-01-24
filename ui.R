@@ -5,7 +5,7 @@ source("wrangling.R")
 shinyUI(fluidPage(theme=shinytheme("flatly"),
                 
                 # Application title
-                titlePanel("Trump 2020 Election Rallies and Covid-19"),
+                titlePanel("2020 Election Rallies and Covid-19"),
                 
                 # Sidebar with a slider input for number of bins 
                 sidebarLayout(
